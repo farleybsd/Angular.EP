@@ -1,0 +1,5 @@
+ng generate component pasta/NomeDoComponente
+
+ng g c Home
+
+Atencao sempre que criar um component tem que registrat  no modulo ->  AppModule
