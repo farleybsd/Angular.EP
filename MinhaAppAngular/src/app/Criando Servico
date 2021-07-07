@@ -1,0 +1,2 @@
+ng generate service Servico
+Observacao tem que registar no AppModule
