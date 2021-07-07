@@ -1,0 +1,29 @@
+Requisitios :
+* NodeJs
+* Npm
+- Atualizando o Npm
+npm install npm@latest -g
+-Verificar s instalacao
+node -v
+npm  -v 
+
+Angular CLI
+npm install -g @angular/cli
+
+Help:
+ng no cmd
+
+Create Project
+ng new MinhaAppAngular
+cd MinhaAppAngular
+ng serve
+http://localhost:4200/webpack-dev-server/
+
+Simulando a entrega em producao (Não e Deploy)
+ng serve --prod
+
+Gerando Build
+ng b
+
+Gerando Build producao
+ng b --prod
