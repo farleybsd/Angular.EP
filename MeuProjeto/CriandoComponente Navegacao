@@ -1,0 +1,3 @@
+ng generate component navegacao/menu
+ng generate component navegacao/home
+ng generate component navegacao/footer
