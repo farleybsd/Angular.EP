@@ -1,0 +1,4 @@
+Criando Projeto
+ng new --minimal MeuProjeto
+cd MeuProjeto
+ng serve
