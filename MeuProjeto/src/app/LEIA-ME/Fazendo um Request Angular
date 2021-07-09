@@ -8,3 +8,11 @@ npx json-server --watch produtos.json
 Criar o ProdutoService
 Registrar AppModule.ts
 Criar classe Produto.ts
+
+Criar component
+ng generate component produtos/ListarProduto
+
+Alterar
+app.routes
+
+Alterar menu.component.html

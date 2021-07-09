@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 export class ProdutoService{
 
     
-    constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient) {} // sempre que usar um modeulo verificar se ele exite no appmodule
 
     protected urlServiceV1: string = "http://localhost:3000/";
 

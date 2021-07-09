@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule} from "@angular/router";
 import { APP_BASE_HREF } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './navegacao/menu/menu.component';
@@ -14,6 +14,7 @@ import { ContatoComponent } from './institucional/contato/contato.component';
 import { rootRouterConfig } from './app.routes';
 import { DataBidingComponent } from './demos/data-biding/data-biding.component';
 import { ProdutoService } from './produtos/produto.service';
+import { ListarProdutoComponent } from './produtos/listar-produto/listar-produto.component';
 
 @NgModule({
   declarations: [
@@ -23,11 +24,13 @@ import { ProdutoService } from './produtos/produto.service';
     FooterComponent,
     SobreComponent,
     ContatoComponent,
-    DataBidingComponent
+    DataBidingComponent,
+    ListarProdutoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash:false})]
   ],
   providers: [
