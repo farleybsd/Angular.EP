@@ -1,3 +1,5 @@
 ng generate component navegacao/menu
 ng generate component navegacao/home
 ng generate component navegacao/footer
+ng generate component institucional/sobre
+ng generate component institucional/contato
