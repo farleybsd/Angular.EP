@@ -1,4 +1,4 @@
-Api-Fake
+Api-Fake (Instalei no diretorio da aplicacao)
 npm i json-server
 npm install -g json-server
 
