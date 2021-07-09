@@ -1,0 +1,6 @@
+Api-Fake
+npm i json-server
+npm install -g json-server
+
+Subindo server Fake
+npx json-server --watch produtos.json
