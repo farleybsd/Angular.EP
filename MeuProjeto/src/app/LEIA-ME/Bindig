@@ -1,3 +1,6 @@
 Protety Binding = Quando voce quer atualizar o templeplate a partir do component [(ngModel)]="evento.nome"
 Event Binding = Quando voce quer atualizar o component a partir do templeplate {evento.nome}
 Two-Way-Binding = Faz uma atualização nas duas  direçoes templeplate e component (uniao) [()] BANANA IN BOX
+
+-- Demos dos Binding
+ng generate component demos/DataBiding
