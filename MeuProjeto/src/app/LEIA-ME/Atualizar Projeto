@@ -1,0 +1,19 @@
+Deletar node_modules
+
+Instalar npm-check-updates
+npm install npm-check-updates
+
+rodar o comando
+ncu
+Verde sem problema apenas patch
+Azul adc funcao nova
+Vermelho mudou a versao (pode quebrar)
+
+para atualizar
+ncu -u
+
+reinstalar pacotes com atualizacao
+npm install
+
+testar conpilando pra prod
+ng build --prod
