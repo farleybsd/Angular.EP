@@ -1,7 +1,7 @@
 Criando Projeto
 ng new --minimal MeuProjeto
 cd MeuProjeto
-ng serve
+ng serve ou  ng serve --prod
 http://localhost:4200/webpack-dev-server/
 
 Angular Material
